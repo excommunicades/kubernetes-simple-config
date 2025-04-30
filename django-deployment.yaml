@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: django-container
-          image: excommunicades/devops_django8
+          image: dockerhubAccount/dockerhubImage # Here you can set your own image with Django Project from dockerhub
           ports:
           - containerPort: 8000
           env:
